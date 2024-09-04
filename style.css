@@ -1,0 +1,56 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 0px 14px;
+  
+ }
+ .head {
+  margin-top: 30px;
+  font-size: 22px;
+  font-weight: bold;
+  color: rgb(91, 4, 4);
+ }
+ #inputValue {
+  border: 2px solid rgb(91, 4, 4);
+  margin: 18px 0px;
+  padding: 4px 25px;
+ }
+ .btn1 {
+  margin: 10px 0px; 
+  background-color: rgb(91, 4, 4);
+  color: white;
+  padding: 5px 10px;
+  font-weight: 600;
+  margin-bottom: 15px;
+ }
+ .output-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+ }
+ .output-section img {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.199);
+ }
+ .output-section p {
+  padding: 5px 0px;
+ }
+ .output-section span {
+  font-weight: 600;
+  color: rgb(91, 4, 4);
+ }
+ .country-name {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 600;
+  color: rgb(47, 3, 3);
+ }
